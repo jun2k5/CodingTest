@@ -27,3 +27,9 @@ def solution(s):
     answer = str(min) + ' ' + str(max)
     return answer
 
+### 문제 해석 및 풀이 ###
+
+# 문자열을 split() 함수를 이용해 배열로 만들고
+# map()함수로 각각의 요소를 number 라는 정수형 리스트에 저장한다.
+# 그 뒤는 최소, 최대값을 구한 뒤 str 형변환을 통해 min과 max를 정답 형태에 맞게
+# 결합한 뒤, 결과를 반환한다.

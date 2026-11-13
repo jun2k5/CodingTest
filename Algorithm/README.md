@@ -51,3 +51,6 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 41 | [41_power_cycle](41_power_cycle) | 이진 거듭제곱, 행렬 거듭제곱, 플로이드·브렌트 순환 탐지 | [글](https://velog.io/@jun2k5/algo-41-power-cycle) |
 | 42 | [42_fft](42_fft) | FFT, NTT, 큰 수 곱셈 | [글](https://velog.io/@jun2k5/algo-42-fft) |
 | 43 | [43_geometry](43_geometry) | CCW, 선분 교차, 볼록 껍질, 스위핑 | [글](https://velog.io/@jun2k5/algo-43-geometry) |
+| 44 | [44_local_search](44_local_search) | 언덕 오르기, 시뮬레이티드 어닐링, 유전 알고리즘 | [글](https://velog.io/@jun2k5/algo-44-local-search) |
+| 45 | [45_game_tree](45_game_tree) | 미니맥스, 알파-베타 가지치기 | [글](https://velog.io/@jun2k5/algo-45-game-tree) |
+| 46 | [46_csp](46_csp) | 제약 만족 문제 (백트래킹, 전방 검사, MRV, AC-3) | [글](https://velog.io/@jun2k5/algo-46-csp) |

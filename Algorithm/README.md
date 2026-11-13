@@ -42,3 +42,7 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 32 | [32_connectivity](32_connectivity) | SCC, 단절점·단절선, 오일러 경로 | [글](https://velog.io/@jun2k5/algo-32-connectivity) |
 | 33 | [33_network_flow](33_network_flow) | 네트워크 플로우 (포드-풀커슨, 에드몬드-카프) | [글](https://velog.io/@jun2k5/algo-33-network-flow) |
 | 34 | [34_bipartite_matching](34_bipartite_matching) | 이분 매칭 (쿤, 홉크로프트-카프, 헝가리안) | [글](https://velog.io/@jun2k5/algo-34-bipartite-matching) |
+| 35 | [35_kmp_z](35_kmp_z) | KMP, Z 알고리즘 | [글](https://velog.io/@jun2k5/algo-35-kmp-z) |
+| 36 | [36_rabin_karp_boyer_moore](36_rabin_karp_boyer_moore) | 라빈-카프, 보이어-무어, 호스풀 | [글](https://velog.io/@jun2k5/algo-36-rabin-karp-boyer-moore) |
+| 37 | [37_aho_corasick](37_aho_corasick) | 아호-코라식 | [글](https://velog.io/@jun2k5/algo-37-aho-corasick) |
+| 38 | [38_suffix_array_manacher](38_suffix_array_manacher) | 접미사 배열, LCP, 매내처 | [글](https://velog.io/@jun2k5/algo-38-suffix-array-manacher) |

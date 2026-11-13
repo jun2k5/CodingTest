@@ -33,3 +33,12 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 23 | [23_bitmask_tree_dp](23_bitmask_tree_dp) | 비트마스크 DP, 트리 DP | [글](https://velog.io/@jun2k5/algo-23-bitmask-tree-dp) |
 | 24 | [24_greedy](24_greedy) | 그리디 | [글](https://velog.io/@jun2k5/algo-24-greedy) |
 | 25 | [25_array_techniques](25_array_techniques) | 누적 합, 차분 배열, 투 포인터, 슬라이딩 윈도우, 좌표 압축 | [글](https://velog.io/@jun2k5/algo-25-array-techniques) |
+| 26 | [26_graph_bfs_dfs](26_graph_bfs_dfs) | 그래프 표현, BFS·DFS, 0-1 BFS, 양방향 BFS, IDDFS | [글](https://velog.io/@jun2k5/algo-26-graph-bfs-dfs) |
+| 27 | [27_topological_sort](27_topological_sort) | 위상 정렬 (칸, DFS) | [글](https://velog.io/@jun2k5/algo-27-topological-sort) |
+| 28 | [28_dijkstra](28_dijkstra) | 다익스트라 | [글](https://velog.io/@jun2k5/algo-28-dijkstra) |
+| 29 | [29_shortest_paths](29_shortest_paths) | 벨만-포드, 플로이드-워셜, 존슨 | [글](https://velog.io/@jun2k5/algo-29-shortest-paths) |
+| 30 | [30_a_star](30_a_star) | A* 알고리즘 | [글](https://velog.io/@jun2k5/algo-30-a-star) |
+| 31 | [31_mst](31_mst) | 최소 신장 트리 (크루스칼, 프림, 보루프카) | [글](https://velog.io/@jun2k5/algo-31-mst) |
+| 32 | [32_connectivity](32_connectivity) | SCC, 단절점·단절선, 오일러 경로 | [글](https://velog.io/@jun2k5/algo-32-connectivity) |
+| 33 | [33_network_flow](33_network_flow) | 네트워크 플로우 (포드-풀커슨, 에드몬드-카프) | [글](https://velog.io/@jun2k5/algo-33-network-flow) |
+| 34 | [34_bipartite_matching](34_bipartite_matching) | 이분 매칭 (쿤, 홉크로프트-카프, 헝가리안) | [글](https://velog.io/@jun2k5/algo-34-bipartite-matching) |

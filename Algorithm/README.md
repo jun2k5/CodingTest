@@ -60,3 +60,5 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 50 | [50_crypto_hash](50_crypto_hash) | RSA, 디피-헬만, SHA-256 | [글](https://velog.io/@jun2k5/algo-50-crypto-hash) |
 | 51 | [51_compression](51_compression) | RLE, 허프만 코딩, LZ77 | [글](https://velog.io/@jun2k5/algo-51-compression) |
 | 52 | [52_distributed_ds](52_distributed_ds) | 일관된 해싱, 블룸 필터, 스킵 리스트 | [글](https://velog.io/@jun2k5/algo-52-distributed-ds) |
+| 53 | [53_supervised_learning](53_supervised_learning) | 결정 트리, k-NN, 퍼셉트론, 역전파 | [글](https://velog.io/@jun2k5/algo-53-supervised-learning) |
+| 54 | [54_kmeans](54_kmeans) | k-평균 군집화, k-means++ | [글](https://velog.io/@jun2k5/algo-54-kmeans) |

@@ -57,3 +57,6 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 47 | [47_cpu_scheduling](47_cpu_scheduling) | CPU 스케줄링 (FCFS, SJF, SRT, HRN, RR) | [글](https://velog.io/@jun2k5/algo-47-cpu-scheduling) |
 | 48 | [48_page_replacement](48_page_replacement) | 페이지 교체 (FIFO, LRU, OPT, 클럭), LRU 캐시 | [글](https://velog.io/@jun2k5/algo-48-page-replacement) |
 | 49 | [49_deadlock_disk](49_deadlock_disk) | 은행원 알고리즘, 디스크 스케줄링 | [글](https://velog.io/@jun2k5/algo-49-deadlock-disk) |
+| 50 | [50_crypto_hash](50_crypto_hash) | RSA, 디피-헬만, SHA-256 | [글](https://velog.io/@jun2k5/algo-50-crypto-hash) |
+| 51 | [51_compression](51_compression) | RLE, 허프만 코딩, LZ77 | [글](https://velog.io/@jun2k5/algo-51-compression) |
+| 52 | [52_distributed_ds](52_distributed_ds) | 일관된 해싱, 블룸 필터, 스킵 리스트 | [글](https://velog.io/@jun2k5/algo-52-distributed-ds) |

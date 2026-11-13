@@ -54,3 +54,6 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 44 | [44_local_search](44_local_search) | 언덕 오르기, 시뮬레이티드 어닐링, 유전 알고리즘 | [글](https://velog.io/@jun2k5/algo-44-local-search) |
 | 45 | [45_game_tree](45_game_tree) | 미니맥스, 알파-베타 가지치기 | [글](https://velog.io/@jun2k5/algo-45-game-tree) |
 | 46 | [46_csp](46_csp) | 제약 만족 문제 (백트래킹, 전방 검사, MRV, AC-3) | [글](https://velog.io/@jun2k5/algo-46-csp) |
+| 47 | [47_cpu_scheduling](47_cpu_scheduling) | CPU 스케줄링 (FCFS, SJF, SRT, HRN, RR) | [글](https://velog.io/@jun2k5/algo-47-cpu-scheduling) |
+| 48 | [48_page_replacement](48_page_replacement) | 페이지 교체 (FIFO, LRU, OPT, 클럭), LRU 캐시 | [글](https://velog.io/@jun2k5/algo-48-page-replacement) |
+| 49 | [49_deadlock_disk](49_deadlock_disk) | 은행원 알고리즘, 디스크 스케줄링 | [글](https://velog.io/@jun2k5/algo-49-deadlock-disk) |

@@ -46,3 +46,8 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 36 | [36_rabin_karp_boyer_moore](36_rabin_karp_boyer_moore) | 라빈-카프, 보이어-무어, 호스풀 | [글](https://velog.io/@jun2k5/algo-36-rabin-karp-boyer-moore) |
 | 37 | [37_aho_corasick](37_aho_corasick) | 아호-코라식 | [글](https://velog.io/@jun2k5/algo-37-aho-corasick) |
 | 38 | [38_suffix_array_manacher](38_suffix_array_manacher) | 접미사 배열, LCP, 매내처 | [글](https://velog.io/@jun2k5/algo-38-suffix-array-manacher) |
+| 39 | [39_gcd_congruence](39_gcd_congruence) | 유클리드, 확장 유클리드, 모듈러 역원, 중국인의 나머지 정리 | [글](https://velog.io/@jun2k5/algo-39-gcd-congruence) |
+| 40 | [40_primes](40_primes) | 에라토스테네스의 체, 선형 체, 밀러-라빈, 폴라드 로 | [글](https://velog.io/@jun2k5/algo-40-primes) |
+| 41 | [41_power_cycle](41_power_cycle) | 이진 거듭제곱, 행렬 거듭제곱, 플로이드·브렌트 순환 탐지 | [글](https://velog.io/@jun2k5/algo-41-power-cycle) |
+| 42 | [42_fft](42_fft) | FFT, NTT, 큰 수 곱셈 | [글](https://velog.io/@jun2k5/algo-42-fft) |
+| 43 | [43_geometry](43_geometry) | CCW, 선분 교차, 볼록 껍질, 스위핑 | [글](https://velog.io/@jun2k5/algo-43-geometry) |

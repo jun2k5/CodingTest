@@ -23,3 +23,13 @@ velog 시리즈 [알고리즘 정리](https://velog.io/@jun2k5/algo-00-series-in
 | 13 | [13_segment_fenwick](13_segment_fenwick) | 세그먼트 트리, 펜윅 트리 | [글](https://velog.io/@jun2k5/algo-13-segment-fenwick) |
 | 14 | [14_union_find](14_union_find) | 유니온 파인드 | [글](https://velog.io/@jun2k5/algo-14-union-find) |
 | 15 | [15_lca](15_lca) | 최소 공통 조상(LCA) | [글](https://velog.io/@jun2k5/algo-15-lca) |
+| 16 | [16_backtracking](16_backtracking) | 브루트포스와 백트래킹 | [글](https://velog.io/@jun2k5/algo-16-backtracking) |
+| 17 | [17_branch_and_bound](17_branch_and_bound) | 분기 한정법 | [글](https://velog.io/@jun2k5/algo-17-branch-and-bound) |
+| 18 | [18_divide_conquer_1](18_divide_conquer_1) | 분할 정복 ① (거듭제곱, 최근접 점쌍, 퀵셀렉트, 역순 쌍) | [글](https://velog.io/@jun2k5/algo-18-divide-conquer-1) |
+| 19 | [19_divide_conquer_2](19_divide_conquer_2) | 분할 정복 ② (카라츠바, 슈트라센) | [글](https://velog.io/@jun2k5/algo-19-divide-conquer-2) |
+| 20 | [20_dp_basics](20_dp_basics) | 동적 계획법 기초 | [글](https://velog.io/@jun2k5/algo-20-dp-basics) |
+| 21 | [21_sequence_dp](21_sequence_dp) | 수열 DP (LIS, LCS, 편집 거리) | [글](https://velog.io/@jun2k5/algo-21-sequence-dp) |
+| 22 | [22_optimization_dp](22_optimization_dp) | 최적화 DP (0-1 배낭, 행렬 곱셈 순서) | [글](https://velog.io/@jun2k5/algo-22-optimization-dp) |
+| 23 | [23_bitmask_tree_dp](23_bitmask_tree_dp) | 비트마스크 DP, 트리 DP | [글](https://velog.io/@jun2k5/algo-23-bitmask-tree-dp) |
+| 24 | [24_greedy](24_greedy) | 그리디 | [글](https://velog.io/@jun2k5/algo-24-greedy) |
+| 25 | [25_array_techniques](25_array_techniques) | 누적 합, 차분 배열, 투 포인터, 슬라이딩 윈도우, 좌표 압축 | [글](https://velog.io/@jun2k5/algo-25-array-techniques) |

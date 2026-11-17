@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Cart_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cart title</shortDescription>
+        <value>Cart</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Item_Count</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item count message</shortDescription>
+        <value>{0} items in cart</value>
+    </labels>
+    <labels>
+        <fullName>Cart_Remove</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove item</shortDescription>
+        <value>Remove {0}</value>
+    </labels>
+</CustomLabels>

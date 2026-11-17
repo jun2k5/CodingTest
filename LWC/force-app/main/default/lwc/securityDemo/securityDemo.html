@@ -1,0 +1,14 @@
+<template>
+    <!-- 좋은 예: 템플릿 바인딩은 문자열을 텍스트로 넣는다(HTML로 해석하지 않음) -->
+    <p class="safe">{comment}</p>
+
+    <!-- 서식 있는 텍스트는 정화(sanitize)하는 base component로 보여 준다 -->
+    <lightning-formatted-rich-text class="rich" value={richComment}></lightning-formatted-rich-text>
+
+    <!-- 나쁜 예 비교용 -->
+    <div class="unsafe" lwc:dom="manual"></div>
+
+    <template lwc:if={showEdit}>
+        <button class="edit">수정</button>
+    </template>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <p class="selected">선택: {selectedName}</p>
+    <div class="list">
+        <template for:each={items} for:item="item">
+            <c-order-item key={item.id} item={item} onselect={handleSelect}></c-order-item>
+        </template>
+    </div>
+    <button class="highlight-first" onclick={highlightFirst}>첫 항목 강조</button>
+</template>

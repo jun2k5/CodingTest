@@ -1,0 +1,11 @@
+<template>
+    <ul class="accounts">
+        <template for:each={accounts} for:item="acc">
+            <li key={acc.id}>{acc.name} / {acc.revenue} / {acc.owner}</li>
+        </template>
+    </ul>
+    <template lwc:if={errors}>
+        <p class="errors">{errors}</p>
+    </template>
+    <button class="refresh" onclick={handleRefresh}>새로 고침</button>
+</template>

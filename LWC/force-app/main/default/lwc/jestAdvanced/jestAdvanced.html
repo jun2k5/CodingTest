@@ -1,0 +1,12 @@
+<template>
+    <p class="name">{name}</p>
+    <lightning-button class="count" label="미해결 케이스 세기" onclick={handleCount} disabled={loading}></lightning-button>
+    <template lwc:if={loading}>
+        <lightning-spinner alternative-text="세는 중" size="small"></lightning-spinner>
+    </template>
+    <p class="cases">{caseCount}</p>
+    <p class="risk">위험도: {risk}</p>
+    <template lwc:if={error}>
+        <p class="error">{error}</p>
+    </template>
+</template>

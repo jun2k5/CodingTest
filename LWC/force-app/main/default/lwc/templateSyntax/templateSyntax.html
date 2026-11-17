@@ -1,0 +1,32 @@
+<template>
+    <!-- 1. 바인딩과 getter -->
+    <p class="greeting">{greeting}</p>
+    <p class="count">상품 {itemCount}개</p>
+
+    <!-- 2. 조건부 렌더링 -->
+    <template lwc:if={isLoading}>
+        <p class="state">불러오는 중</p>
+    </template>
+    <template lwc:elseif={isEmpty}>
+        <p class="state">상품이 없다</p>
+    </template>
+    <template lwc:else>
+        <!-- 3. for:each: key 필수 -->
+        <ul class="list">
+            <template for:each={items} for:item="item" for:index="idx">
+                <li key={item.id} class={item.cssClass}>{item.name}</li>
+            </template>
+        </ul>
+
+        <!-- 4. iterator: first, last 사용 -->
+        <ol class="ordered">
+            <template iterator:it={items}>
+                <li key={it.value.id}>
+                    <span lwc:if={it.first} class="badge">처음</span>
+                    {it.value.name}
+                    <span lwc:if={it.last} class="badge">끝</span>
+                </li>
+            </template>
+        </ol>
+    </template>
+</template>

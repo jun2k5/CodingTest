@@ -1,0 +1,12 @@
+<template>
+    <ul class="results">
+        <template for:each={accounts} for:item="acc">
+            <li key={acc.Id}>
+                <span class="name">{acc.Name}</span>
+                <span class="rating">{acc.Rating}</span>
+                <button class="hot" data-id={acc.Id} onclick={handleHot}>Hot</button>
+            </li>
+        </template>
+    </ul>
+    <p class="status">{status}</p>
+</template>

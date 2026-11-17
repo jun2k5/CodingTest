@@ -1,0 +1,9 @@
+<template>
+    <ul>
+        <template for:each={accounts} for:item="acc">
+            <li key={acc.Id}>
+                <button class="pick" data-id={acc.Id} onclick={handleSelect}>{acc.Name}</button>
+            </li>
+        </template>
+    </ul>
+</template>

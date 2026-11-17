@@ -1,0 +1,7 @@
+<template>
+    <lightning-input class="discount" type="number" label="할인율(%)" value={discount} onchange={handleDiscount}></lightning-input>
+    <lightning-input class="reason" label="사유" value={reason} onchange={handleReason}></lightning-input>
+    <template lwc:if={canGoNext}>
+        <lightning-button class="next" label="다음" onclick={handleNext}></lightning-button>
+    </template>
+</template>

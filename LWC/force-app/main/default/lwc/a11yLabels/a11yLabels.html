@@ -1,0 +1,20 @@
+<template>
+    <h2 class="title">{labels.title}</h2>
+    <!-- 바뀌는 상태를 화면 읽기 도구가 읽어 주도록 aria-live 영역에 둔다 -->
+    <p class="status" aria-live="polite">{countMessage}</p>
+    <ul class="items">
+        <template for:each={rows} for:item="row">
+            <li key={row.id}>
+                <span>{row.name}</span>
+                <span class="price">{row.priceText}</span>
+                <!-- 아이콘만 있는 버튼은 alternative-text로 이름을 준다 -->
+                <lightning-button-icon
+                    icon-name="utility:delete"
+                    alternative-text={row.removeLabel}
+                    data-id={row.id}
+                    onclick={handleRemove}
+                ></lightning-button-icon>
+            </li>
+        </template>
+    </ul>
+</template>

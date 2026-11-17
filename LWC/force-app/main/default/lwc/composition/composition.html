@@ -1,0 +1,19 @@
+<template>
+    <!-- 1. slot: 틀 컴포넌트 안에 내용을 끼워 넣는다 -->
+    <c-panel-frame class="panel">
+        <span slot="title" class="custom-title">매출 요약</span>
+        <p class="content">본문 1</p>
+        <p class="content">본문 2</p>
+        <lightning-button slot="footer" label="자세히"></lightning-button>
+    </c-panel-frame>
+
+    <!-- 2. Light DOM 자식 -->
+    <c-light-card text="가벼운 카드"></c-light-card>
+
+    <!-- 3. 동적 컴포넌트: 실행 중에 어떤 컴포넌트를 그릴지 정한다 -->
+    <div class="dynamic-area">
+        <template lwc:if={widgetCtor}>
+            <lwc:component lwc:is={widgetCtor}></lwc:component>
+        </template>
+    </div>
+</template>

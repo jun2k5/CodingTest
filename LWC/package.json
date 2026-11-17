@@ -1,0 +1,22 @@
+{
+  "name": "lwc-series",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LWC 정리 시리즈 예제",
+  "scripts": {
+    "lint": "eslint force-app/main/default/lwc jest-mocks",
+    "test": "sfdx-lwc-jest",
+    "test:coverage": "sfdx-lwc-jest --coverage",
+    "verify": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@lwc/eslint-plugin-lwc": "^3.5.0",
+    "@salesforce/eslint-config-lwc": "^4.1.2",
+    "@salesforce/eslint-plugin-aura": "^3.0.0",
+    "@salesforce/eslint-plugin-lightning": "^2.0.0",
+    "@salesforce/sfdx-lwc-jest": "^7.0.2",
+    "eslint": "^9.39.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^28.14.0"
+  }
+}

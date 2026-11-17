@@ -1,0 +1,10 @@
+<template>
+    <lightning-button class="save" label="Hot으로 저장" onclick={handleSave} disabled={saving}></lightning-button>
+    <template lwc:if={hasErrors}>
+        <ul class="errors slds-text-color_error">
+            <template for:each={errorMessages} for:item="msg">
+                <li key={msg}>{msg}</li>
+            </template>
+        </ul>
+    </template>
+</template>

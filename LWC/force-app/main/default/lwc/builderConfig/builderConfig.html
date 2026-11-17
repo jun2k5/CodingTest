@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title={cardTitle}>
+        <p class="context slds-p-horizontal_small">{context}</p>
+        <ul class={listClass}>
+            <template for:each={visibleItems} for:item="item">
+                <li key={item.key}>
+                    <template lwc:if={showIcons}><span class="icon">*</span></template>
+                    {item.label}
+                </li>
+            </template>
+        </ul>
+    </lightning-card>
+</template>

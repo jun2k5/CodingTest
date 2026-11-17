@@ -1,0 +1,14 @@
+<template>
+    <template lwc:if={record}>
+        <p class="name">{name}</p>
+        <p class="industry">{industry}</p>
+        <p class="owner">담당: {ownerName}</p>
+        <p class="revenue">매출: {revenueDisplay}</p>
+        <button class="update" onclick={handleMarkTech}>업종을 Technology로</button>
+        <button class="create" onclick={handleCreateContact}>담당자 연락처 만들기</button>
+    </template>
+    <template lwc:elseif={error}>
+        <p class="error">{error}</p>
+    </template>
+    <p class="status">{status}</p>
+</template>

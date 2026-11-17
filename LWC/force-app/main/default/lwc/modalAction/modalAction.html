@@ -1,0 +1,9 @@
+<template>
+    <lightning-quick-action-panel header="레코드 정리">
+        <p class="result">{result}</p>
+        <div slot="footer">
+            <button class="delete slds-button slds-button_destructive" onclick={handleDelete}>삭제</button>
+            <button class="close slds-button slds-button_neutral" onclick={handleClose}>닫기</button>
+        </div>
+    </lightning-quick-action-panel>
+</template>

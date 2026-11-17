@@ -1,0 +1,8 @@
+<template>
+    <p class="state">{stateLabel}</p>
+    <ul class="messages">
+        <template for:each={messages} for:item="m">
+            <li key={m.key}>{m.text}</li>
+        </template>
+    </ul>
+</template>

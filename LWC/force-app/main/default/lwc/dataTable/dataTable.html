@@ -1,0 +1,18 @@
+<template>
+    <div style="height: 300px">
+        <lightning-datatable
+            key-field="Id"
+            data={rows}
+            columns={columns}
+            draft-values={draftValues}
+            sorted-by={sortedBy}
+            sorted-direction={sortedDirection}
+            enable-infinite-loading={notAllLoaded}
+            onsort={handleSort}
+            onsave={handleSave}
+            onloadmore={handleLoadMore}
+            hide-checkbox-column
+        ></lightning-datatable>
+    </div>
+    <p class="message">{message}</p>
+</template>

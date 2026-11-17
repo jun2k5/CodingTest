@@ -1,0 +1,19 @@
+/* 이 컴포넌트의 Shadow DOM 안에만 적용된다 */
+:host {
+    display: block;
+    /* styling hook: base component가 공개한 CSS 사용자 정의 속성 */
+    --slds-c-button-brand-color-background: #0b5cab;
+}
+
+.title {
+    color: rgb(255, 0, 0);
+}
+
+.status-ok {
+    color: rgb(0, 128, 0);
+}
+
+.status-error {
+    color: rgb(200, 0, 0);
+    font-weight: 700;
+}

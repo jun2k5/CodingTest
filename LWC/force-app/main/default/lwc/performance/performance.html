@@ -1,0 +1,21 @@
+<template>
+    <p class="tick">{tick}</p>
+    <p class="by-getter">{summaryByGetter}</p>
+    <p class="cached">{summary}</p>
+    <button class="tick-btn" onclick={handleTick}>다시 렌더링</button>
+
+    <ul class="rows">
+        <template for:each={visibleRows} for:item="row">
+            <li key={row.id}>{row.amount}</li>
+        </template>
+    </ul>
+    <template lwc:if={hasMore}>
+        <button class="more" onclick={handleMore}>더 보기</button>
+    </template>
+
+    <button class="toggle" onclick={toggleDetail}>상세</button>
+    <!-- 접힌 동안에는 자식 컴포넌트를 만들지 않는다(지연 렌더링) -->
+    <template lwc:if={showDetail}>
+        <c-lifecycle-child class="detail" label="상세 영역"></c-lifecycle-child>
+    </template>
+</template>

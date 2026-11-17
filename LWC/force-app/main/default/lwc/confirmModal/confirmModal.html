@@ -1,0 +1,10 @@
+<template>
+    <lightning-modal-header label="삭제 확인"></lightning-modal-header>
+    <lightning-modal-body>
+        <p class="content">{content}</p>
+    </lightning-modal-body>
+    <lightning-modal-footer>
+        <button class="cancel slds-button slds-button_neutral" onclick={handleCancel}>취소</button>
+        <button class="ok slds-button slds-button_destructive" onclick={handleOk}>삭제</button>
+    </lightning-modal-footer>
+</template>

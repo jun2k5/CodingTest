@@ -1,0 +1,17 @@
+<template>
+    <lightning-input class="keyword" label="거래처 검색" type="search" onchange={handleKeyword}></lightning-input>
+    <template lwc:if={hasAccounts}>
+        <ul class="results">
+            <template for:each={accounts} for:item="acc">
+                <li key={acc.Id}>
+                    <span class="name">{acc.Name}</span>
+                    <button class="hot" data-id={acc.Id} onclick={handleHot}>Hot</button>
+                </li>
+            </template>
+        </ul>
+    </template>
+    <template lwc:elseif={error}>
+        <p class="error">{error}</p>
+    </template>
+    <p class="status">{status}</p>
+</template>

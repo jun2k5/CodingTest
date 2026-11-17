@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>68.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>할인율 선택</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <!-- Flow 변수와 연결되는 속성: inputOnly(Flow → 컴포넌트), outputOnly(컴포넌트 → Flow), 생략하면 양쪽 -->
+            <property name="maxDiscount" type="Integer" label="최대 할인율" role="inputOnly" />
+            <property name="discount" type="Integer" label="선택한 할인율" />
+            <property name="reason" type="String" label="할인 사유" role="outputOnly" />
+        </targetConfig>
+        <targetConfig targets="lightningCommunity__Default">
+            <!-- Experience Builder 속성 패널 -->
+            <property name="maxDiscount" type="Integer" label="최대 할인율" default="30" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

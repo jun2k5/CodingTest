@@ -1,0 +1,9 @@
+<template>
+    <template lwc:if={hasError}>
+        <p class="error">오류 처리됨: {errorMessage}</p>
+    </template>
+    <template lwc:else>
+        <c-lifecycle-child label={label} should-fail={failChild}></c-lifecycle-child>
+    </template>
+    <p class="width">{measured}</p>
+</template>

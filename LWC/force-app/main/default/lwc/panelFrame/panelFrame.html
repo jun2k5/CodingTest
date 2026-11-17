@@ -1,0 +1,13 @@
+<template>
+    <section class="frame">
+        <header class="header">
+            <slot name="title">기본 제목</slot>
+        </header>
+        <div class="body">
+            <slot onslotchange={handleSlotChange}></slot>
+        </div>
+        <footer class="footer">
+            <slot name="footer"></slot>
+        </footer>
+    </section>
+</template>

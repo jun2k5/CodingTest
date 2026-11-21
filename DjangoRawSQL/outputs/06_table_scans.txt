@@ -1,0 +1,2 @@
+customer | 0 | 0 | 200
+order_item | 200 | 12000000 | 0

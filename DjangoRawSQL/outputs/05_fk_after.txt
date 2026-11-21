@@ -1,0 +1,2 @@
+Index Scan using order_item_order_id_idx on order_item (actual rows=3 loops=1)
+  Index Cond: (order_id = 12345)

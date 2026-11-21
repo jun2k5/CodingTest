@@ -1,0 +1,4 @@
+Aggregate (actual rows=1 loops=1)
+  ->  Seq Scan on orders (actual rows=280 loops=1)
+        Filter: ((created_at)::date = '2026-01-02'::date)
+        Rows Removed by Filter: 19720

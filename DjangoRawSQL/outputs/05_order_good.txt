@@ -1,0 +1,3 @@
+Limit (actual rows=5 loops=1)
+  ->  Index Scan using orders_customer_created_idx on orders (actual rows=5 loops=1)
+        Index Cond: (customer_id = 77)

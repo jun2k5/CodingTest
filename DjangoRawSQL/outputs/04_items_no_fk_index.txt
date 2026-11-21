@@ -1,0 +1,3 @@
+Seq Scan on order_item (actual rows=30 loops=1)
+  Filter: (order_id = ANY ('{1,2,3,4,5,6,7,8,9,10}'::bigint[]))
+  Rows Removed by Filter: 29970

@@ -1,0 +1,17 @@
+# 로컬 실험용 PostgreSQL 17. 비밀번호는 로컬 전용 테스트 값이다.
+services:
+  db:
+    image: postgres:17
+    container_name: djsql-pg
+    environment:
+      POSTGRES_DB: shop
+      POSTGRES_USER: shop
+      POSTGRES_PASSWORD: shop
+    ports:
+      - "54329:5432"
+    command:
+      - postgres
+      - -c
+      - shared_preload_libraries=pg_stat_statements
+      - -c
+      - pg_stat_statements.track=all

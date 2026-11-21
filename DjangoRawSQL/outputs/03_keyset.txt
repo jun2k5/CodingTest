@@ -1,0 +1,4 @@
+Limit (actual rows=20 loops=1)
+  ->  Index Only Scan using product_price_id_idx on product (actual rows=20 loops=1)
+        Index Cond: (ROW(price, id) > ROW(45000, 0))
+        Heap Fetches: 20

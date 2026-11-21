@@ -1,0 +1,2 @@
+Limit (actual rows=10 loops=1)
+  ->  Index Scan using orders_pending_created_idx on orders (actual rows=10 loops=1)

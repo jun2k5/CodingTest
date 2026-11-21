@@ -1,0 +1,3 @@
+Limit (actual rows=20 loops=1)
+  ->  Index Only Scan using product_price_id_idx on product (actual rows=90020 loops=1)
+        Heap Fetches: 90020

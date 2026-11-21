@@ -1,0 +1,2 @@
+200 | 600 | 442 | SELECT product_id, quantity FROM order_item WHERE order_id = $1
+200 | 200 | 3 | SELECT id, name FROM customer WHERE id = $1

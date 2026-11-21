@@ -1,0 +1,3 @@
+Seq Scan on orders (actual rows=20 loops=1)
+  Filter: ((customer_id)::numeric = 77.0)
+  Rows Removed by Filter: 19980

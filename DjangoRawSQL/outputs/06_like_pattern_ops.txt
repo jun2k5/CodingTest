@@ -1,0 +1,5 @@
+Bitmap Heap Scan on customer (actual rows=11 loops=1)
+  Filter: (email ~~ 'c77%'::text)
+  Heap Blocks: exact=2
+  ->  Bitmap Index Scan on customer_email_pattern_idx (actual rows=11 loops=1)
+        Index Cond: ((email ~>=~ 'c77'::text) AND (email ~<~ 'c78'::text))

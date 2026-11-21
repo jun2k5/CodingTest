@@ -1,0 +1,4 @@
+Aggregate (actual rows=1 loops=1)
+  ->  Seq Scan on product (actual rows=20000 loops=1)
+        Filter: (category = 'book'::text)
+        Rows Removed by Filter: 80000

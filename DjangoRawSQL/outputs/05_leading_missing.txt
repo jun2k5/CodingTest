@@ -1,0 +1,4 @@
+Aggregate (actual rows=1 loops=1)
+  ->  Seq Scan on orders (actual rows=5000 loops=1)
+        Filter: (status = 'paid'::text)
+        Rows Removed by Filter: 15000
